@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Advanced Search</title>
+        <style>
+
+            .form{
+                padding: 20px;
+            }
+
+
+            div{
+                padding: 15px;
+            }
+
+            .input{
+                width: 300px;
+            }
+
+            .input1{
+                width: 150px;
+                position: absolute; 
+                right: 1180px;
+                background-color: blue;
+                color: white;
+            }
+
+            a{
+                position: absolute;
+                right: 10px;
+            }
+        </style>
+        <a href="index.html">Google Search</a>
+    </head>
+    <body>
+        <form action="https://www.google.com/search" class="form">
+            <div>
+                <input type="text" name="q" placeholder="all these words" class="input">
+            </div>
+            <div>
+                <input type="text" name="q" placeholder="this exact word or phrase" class="input">
+            </div>
+            <div>
+                <input type="text" name="q" placeholder="any of these words" class="input">
+            </div>
+            <div>
+                <input type="text" name="q" placeholder="none of these words" class="input">
+            </div>
+            <div><input type="submit" value="Advanced Search" class="input1"></div>
+        </form>
+    </body>
+</html>

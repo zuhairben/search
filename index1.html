@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <style>
+
+            .container{
+                align-items: center;
+                justify-content: center;
+                display: flex;
+            }
+            
+            h1{
+                text-align: center;
+                font-size: 100px;
+                padding: 50px;
+                margin: auto;
+                color: blue;
+            }
+
+            .input{
+                display: flex;
+                border-radius: 70px;
+                width: 25%;
+                align-items: center;
+                padding: 10px 20px;
+                text-align: left;
+            }
+
+            .input1{
+                align-items: center;
+                border-radius: 70px;
+                position: absolute;
+                bottom: 450px;
+            }
+
+            a{
+                position: absolute;
+                right: 10px;
+            }
+                        
+        </style>
+        <a href="index.html">Google Search</a>
+    </head>
+    <body>
+        <div><h1>Google Image Search</h1></div>
+        <form action="http://images.google.com/images" class="container">
+            <input type="text" name="q" class="input">
+            <input type="submit" value="Google Image Search" class="input1">
+        </form>
+    </body>
+</html>
